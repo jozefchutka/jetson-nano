@@ -38,7 +38,7 @@ $ gst-launch-1.0 uridecodebin uri=file:///home/jozef/Desktop/Jellyfish_1080_10s_
 - 1x H.265 4K @ 30 (YUV 4:2:0)	
 - 4x H.265 1080 @ 30 (YUV 4:2:0)
 
-## Sources
+# Sources
 
 - [Video Decoders](https://docs.nvidia.com/jetson/l4t/index.html#page/Tegra%20Linux%20Driver%20Package%20Development%20Guide/software_features_jetson_nano.html#wwpID0EZHA0) - decoding capabilities
 - [Video Encoders](https://docs.nvidia.com/jetson/l4t/index.html#page/Tegra%20Linux%20Driver%20Package%20Development%20Guide/software_features_jetson_nano.html#wwpID0EXHA) - encoding capabilities

@@ -22,5 +22,6 @@ $ xwininfo
 $ ximagesrc xid=0x2e00007
 ```
 
+# Sources
 
 - [How to boot Jetson Nano in text mode?](https://forums.developer.nvidia.com/t/how-to-boot-jetson-nano-in-text-mode/73636/11)
