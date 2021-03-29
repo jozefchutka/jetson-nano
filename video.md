@@ -1,5 +1,13 @@
 # Video
 
+## Play file
+
+With GPU decoding:
+
+```
+$ gst-launch-1.0 uridecodebin uri=file:///home/jozef/Desktop/Jellyfish_1080_10s_20MB.mp4 ! nvvidconv ! 'video/x-raw(memory:NVMM),width=1920,height=1080' ! nvoverlaysink
+```
+
 ## Decoding
 
 - H.264 (3840 x 2160 @60 fps, Up to 120 Mbps)
