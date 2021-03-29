@@ -1,26 +1,28 @@
 # Performance
 
+Set max performance:
+
 ```
 $ sudo nvpmodel -m 0
 $ sudo jetson_clocks
 ```
 
-MAXN 10W mode (default) - persists after restart
+## nvpmodel
 
+MAXN 10W mode (default) - persists after restart:
 ```
 $ sudo nvpmodel -m 0
 ```
 
-5W mode
-
+5W mode:
 ```
 $ sudo nvpmodel -m 1
 ```
 
-maximize platform performance
+## Jetson Clocks
 
+Maximize platform performance:
 ```
-$ sudo jetson_clocks
 $ sudo jetson_clocks --show
 ```
 
